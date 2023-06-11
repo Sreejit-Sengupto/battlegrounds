@@ -12,7 +12,7 @@ export default function NewsSection() {
   return (
     <div className="bg-homeNews bg-cover pb-16">
         <h1 className="font-oswald text-center text-5xl font-bold text-[#333] tracking-tight pt-20">NEWS</h1>
-      <div className="flex flex-col lg:flex-row w-[80%] mx-auto flex-wrap">
+      <div className="flex flex-col justify-center items-center lg:flex-row w-[80%] mx-auto flex-wrap">
       <Link to={data[0].id} className="w-80 m-4 lg:m-8 bg-white font-teko">
         <img src={data[0].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[0].type}</p>
