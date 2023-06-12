@@ -37,7 +37,7 @@ export default function NewsSection() {
       
       {!show && <button onClick={handleClick} className=" border-2 border-[#d5d5d5] text-[#666] text-center w-52 h-12 font-medium font-teko block mx-auto mt-4 hover:border-black hover:text-black">VIEW MORE</button>}
 
-      {show && <div className="flex flex-col lg:flex-row w-[80%] mx-auto flex-wrap">
+      {show && <div className="flex flex-col lg:flex-row w-[80%] mx-auto flex-wrap justify-center items-center">
       <Link to={data[3].id} className="w-80 my-4 lg:m-8 bg-white font-teko">
         <img src={data[3].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[3].type}</p>
