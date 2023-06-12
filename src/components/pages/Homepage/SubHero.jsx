@@ -10,7 +10,7 @@ function SubHero() {
           <iframe
             className="lg:hidden py-8"
             width="360"
-            height="200"
+            height="300"
             src="https://www.youtube.com/embed/jWtgNcKb8sQ"
             title="YouTube video player"
             frameborder="0"
