@@ -13,21 +13,21 @@ export default function NewsSection() {
     <div className="bg-homeNews bg-cover pb-16">
         <h1 className="font-oswald text-center text-5xl font-bold text-[#333] tracking-tight pt-20">NEWS</h1>
       <div className="flex flex-col justify-center items-center lg:flex-row w-[80%] mx-auto flex-wrap">
-      <Link to={data[0].id} className="w-80 m-4 lg:m-8 bg-white font-teko">
+      <Link to={data[0].id} className="w-80 my-4 lg:m-8 bg-white font-teko">
         <img src={data[0].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[0].type}</p>
         <p className="ml-4 text-2xl tracking-wide">{data[0].title}</p>
         <p className="my-4 ml-4 text-xl text-[#999]">{data[0].date}</p>
       </Link>
 
-      <Link to={data[1].id} className="w-80 m-4 lg:m-8 bg-white font-teko">
+      <Link to={data[1].id} className="w-80 my-4 lg:m-8 bg-white font-teko">
         <img src={data[1].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[1].type}</p>
         <p className="ml-4 text-2xl tracking-wide">{data[1].title}</p>
         <p className="my-4 ml-4 text-xl text-[#999]">{data[1].date}</p>
       </Link>
 
-      <Link to={data[2].id} className="w-80 m-4 lg:m-8 bg-white font-teko">
+      <Link to={data[2].id} className="w-80 my-4 lg:m-8 bg-white font-teko">
         <img src={data[2].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[2].type}</p>
         <p className="ml-4 text-2xl tracking-wide">{data[2].title}</p>
@@ -38,14 +38,14 @@ export default function NewsSection() {
       {!show && <button onClick={handleClick} className=" border-2 border-[#d5d5d5] text-[#666] text-center w-52 h-12 font-medium font-teko block mx-auto mt-4 hover:border-black hover:text-black">VIEW MORE</button>}
 
       {show && <div className="flex flex-col lg:flex-row w-[80%] mx-auto flex-wrap">
-      <Link to={data[3].id} className="w-80 m-4 lg:m-8 bg-white font-teko">
+      <Link to={data[3].id} className="w-80 my-4 lg:m-8 bg-white font-teko">
         <img src={data[3].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[3].type}</p>
         <p className="ml-4 text-2xl tracking-wide">{data[3].title}</p>
         <p className="my-4 ml-4 text-xl text-[#999]">{data[3].date}</p>
       </Link>
 
-      <Link to={data[4].id} className="w-80 m-4 lg:m-8 bg-white font-teko">
+      <Link to={data[4].id} className="w-80 my-4 lg:m-8 bg-white font-teko">
         <img src={data[4].img} alt="" />
         <p className="ml-4 mt-2 text-xl text-[#999]">{data[4].type}</p>
         <p className="ml-4 text-2xl tracking-wide">{data[4].title}</p>
