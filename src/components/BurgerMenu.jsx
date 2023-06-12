@@ -1,10 +1,9 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import cover from "../assets/logo_navbar.png";
+import cover from "/images/logo_navbar.png";
 import { RiFacebookFill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
 import { FiYoutube } from "react-icons/fi";
-import { log } from "react-modal/lib/helpers/ariaAppHider";
 
 function BurgerMenu() {
   const activeStyle = {

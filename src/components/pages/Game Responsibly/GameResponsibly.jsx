@@ -1,6 +1,6 @@
 import React from "react";
-import bgText from "../../../assets/game-responsibly-text.png";
-import gameResImg from "../../../assets/game_responsibly_nav_3.jpg"
+import bgText from "/images/game-responsibly-text.png";
+import gameResImg from "/images/game_responsibly_nav_3.jpg"
 
 export default function GameResponsibly() {
   return (

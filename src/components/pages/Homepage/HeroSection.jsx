@@ -1,5 +1,5 @@
-import GPlay from "../../../assets/btn_googleplay_202.png";
-import AppStr from "../../../assets/btn_appstore_202.png";
+import GPlay from "/images/btn_googleplay_202.png";
+import AppStr from "/images/btn_appstore_202.png";
 
 function HeroSection() {
   return (

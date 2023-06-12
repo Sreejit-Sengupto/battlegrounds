@@ -1,5 +1,5 @@
 import React from 'react'
-import footerImg from '../assets/footerlg.png'
+import footerImg from '/images/footerlg.png'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {

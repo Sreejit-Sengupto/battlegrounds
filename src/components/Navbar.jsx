@@ -2,7 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import { RiFacebookFill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
 import { FiYoutube } from "react-icons/fi";
-import cover from "../assets/logo_navbar.png";
+import cover from "/images/logo_navbar.png";
 import BurgerMenu from "./BurgerMenu";
 import Footer from "./Footer";
 function Navbar() {

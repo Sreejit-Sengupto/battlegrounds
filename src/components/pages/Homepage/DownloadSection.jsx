@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../../assets/pubg-logo.png";
-import appStoreIcon from "../../../assets/btn_appstore_202.png";
-import googlePlayIcon from "../../../assets/btn_googleplay_202.png";
+import logo from "/images/pubg-logo.png";
+import appStoreIcon from "/images/btn_appstore_202.png";
+import googlePlayIcon from "/images/btn_googleplay_202.png";
 
 export default function DownloadSection() {
   return (
