@@ -49,6 +49,7 @@ function BurgerMenu() {
                 className=" hover:text-white transition-all text-[1.5rem] cursor-pointer w-full flex justify-center items-center border border-[#666] p-2"
                 to="/"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 HOME
               </NavLink>
@@ -56,6 +57,7 @@ function BurgerMenu() {
                 className=" hover:text-white transition-all text-[1.5rem] cursor-pointer w-full flex justify-center items-center border border-[#666] p-2"
                 to="/news"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 NEWS
               </NavLink>
@@ -63,6 +65,7 @@ function BurgerMenu() {
                 className=" hover:text-white transition-all text-[1.5rem] cursor-pointer w-full flex justify-center items-center border border-[#666] p-2"
                 to="/redeem"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 REDEEM
               </NavLink>
@@ -71,6 +74,7 @@ function BurgerMenu() {
                 to="https://esports.battlegroundsmobileindia.com/"
                 target="_blank"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 ESPORTS
               </NavLink>
@@ -79,6 +83,7 @@ function BurgerMenu() {
                 to="https://help.battlegroundsmobileindia.com/hc/en/4-support/"
                 target="_blank"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 SUPPORT
               </NavLink>
@@ -86,6 +91,7 @@ function BurgerMenu() {
                 className=" hover:text-white transition-all text-[1.5rem] cursor-pointer w-full flex justify-center items-center border border-[#666] p-2"
                 to="/game_responsibly"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 GAME RESPONSIBLY
               </NavLink>
@@ -93,6 +99,7 @@ function BurgerMenu() {
                 className="text-black transition-all text-[1.5rem] cursor-pointer bg-[#f2a900] w-full h-12 flex justify-center items-center mb-[1px]"
                 to="https://play.google.com/store/apps/details?id=com.pubg.imobile"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 AOS DOWNLOAD
               </NavLink>
@@ -100,6 +107,7 @@ function BurgerMenu() {
                 className="text-black transition-all text-[1.5rem] cursor-pointer bg-[#f2a900] w-full h-12 flex justify-center items-center"
                 to="https://apps.apple.com/app/id1526436837?mt=8"
                 style={({ isActive }) => (isActive ? activeStyle : null)}
+                onClick={() => {setShow(false)}}
               >
                 IOS DOWNLOAD
               </NavLink>
