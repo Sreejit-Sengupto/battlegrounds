@@ -2,23 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import Modal from 'react-modal';
 import { carouselData } from "./CarouselData";
 
 const Carousel = () => {
-  // const [isOpen, setIsOpen] = React.useState(false);
-  // const [selectedImage, setSelectedImage] = React.useState('');
-
-  // const openModal = (image) => {
-  //   setIsOpen(true);
-  //   setSelectedImage(image);
-  // };
-
-  // const closeModal = () => {
-  //   setIsOpen(false);
-  //   setSelectedImage('');
-  // };
-
   const settings = {
     dots: true,
     infinite: true,
@@ -40,13 +26,9 @@ const Carousel = () => {
   });
 
   return (
-    <div className="bg-carouselImg h-[40rem] flex flex-col justify-center items-center overflow-hidden">
+    <div className="bg-carouselImg h-[40rem] w-[100rem] flex flex-col justify-center items-center overflow-x-hidden">
       <p className="text-white text-5xl font-oswald pb-20">PARTNERS</p>
-      <Slider {...settings} className="w-[100rem]">{slider}</Slider>
-      {/* <Modal isOpen={isOpen} onRequestClose={closeModal}>
-        <img src={selectedImage} alt="Enlarged Image" style={{ objectFit: 'contain', maxHeight: '80vh', maxWidth: '80vw' }} />
-        <button onClick={closeModal}>Close</button>
-      </Modal> */}
+      <Slider {...settings} className="w-[100rem] lg:w-full lg:overflow-hidden">{slider}</Slider>
     </div>
   );
 };

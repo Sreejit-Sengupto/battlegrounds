@@ -1,15 +1,15 @@
-import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Homepage from "./components/pages/Homepage/Homepage";
-import News from "./components/pages/News/News";
-import NewsDetail from "./components/pages/News/NewsDetail";
-import NewsCards from "./components/pages/News/NewsCards";
-import PrivacyPolicy from "./components/pages/TermsConditions/PrivacyPolicy";
-import TermsOfServices from "./components/pages/TermsConditions/TermsOfServices";
-import RulesOfConduct from "./components/pages/TermsConditions/RulesOfConduct";
-import CommunityPage from "./components/pages/TermsConditions/CommunityPage";
-import GameResponsibly from "./components/pages/Game Responsibly/GameResponsibly";
-import Redeem from "./components/pages/Redeem/Redeem";
+import Navbar from '@components/Navbar'
+import Homepage from '@homepage/Homepage'
+import News from '@news/News'
+import NewsDetail from '@news/NewsDetail'
+import NewsCards from '@news/NewsCards'
+import PrivacyPolicy from '@tac/PrivacyPolicy'
+import TermsOfServices from '@tac/TermsOfServices'
+import RulesOfConduct from '@tac/RulesOfConduct'
+import CommunityPage from '@tac/CommunityPage'
+import GameResponsibly from '@gameResponsibly/GameResponsibly'
+import Redeem from '@redeem/Redeem'
 
 export default function App() {
   return (

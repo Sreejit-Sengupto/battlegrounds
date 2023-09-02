@@ -1,5 +1,5 @@
 import React from "react";
-import DownloadSection from "../Homepage/DownloadSection";
+import DownloadSection from '@homepage/DownloadSection'
 
 export default function PrivacyPolicy() {
   return (

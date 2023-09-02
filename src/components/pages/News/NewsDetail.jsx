@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { data } from '../../../data';
+import { data } from '@/data'
 
 export default function NewsDetail() {
     const params = useParams();
