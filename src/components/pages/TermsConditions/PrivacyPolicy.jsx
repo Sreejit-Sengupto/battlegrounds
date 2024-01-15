@@ -1,5 +1,5 @@
-import React from "react";
-import DownloadSection from '@homepage/DownloadSection'
+import React from 'react';
+import DownloadSection from '@homepage/DownloadSection';
 
 export default function PrivacyPolicy() {
   return (
@@ -68,21 +68,21 @@ export default function PrivacyPolicy() {
           differ in some cases. For example, these may include:
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Nickname, etc. to provide the Game
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Nickname, email address, name, phone number, date of birth, etc. to
           register for tournament(s) or e-sports event(s)
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Nickname, email address, name, phone number, etc. to provide
           customer service
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Nickname, email address, name, phone number, gender, age, country of
           residence, survey responses, etc. for participation in survey(s), and
           other events
@@ -112,17 +112,17 @@ export default function PrivacyPolicy() {
           etc.),
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Data during our Game play,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Device event information, including crash reports and system
           activity details (e.g. whether you encountered an error playing our
           games or lost Internet access),
         </p>
         <p className="font-teko text-[#666] text-lg mt-2 mb-10">
-          {" "}
+          {' '}
           - Your browsing behavior while using our Site and/or Services
         </p>
 
@@ -137,23 +137,23 @@ export default function PrivacyPolicy() {
           and your privacy settings thereon. For example, these include:
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Google: Google ID, nickname, profile image, purchase history
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Apple: Apple ID, profile image, purchase history
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Game Center: User ID, nickname, profile image
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Twitter: Twitter ID, nickname, profile image, friends list
         </p>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-          {" "}
+          {' '}
           - Facebook: Name, Facebook ID, profile picture, friends list
         </p>
         <h1 className="font-teko text-[#666] text-xl font-bold">
@@ -199,14 +199,14 @@ export default function PrivacyPolicy() {
           may use the following advertising functions of Google® Analytics and
           collect personal information as provided by Google, and you may
           withdraw your consent by deactivating such functions in Google’s
-          advertising settings: Remarketing by using Google® Analytics; Google®
-          Display Network Exposure Report; Google® Analytics Demographics and
-          Interests Report; and Integrated service allowing the collection of
-          data through Google® Analytics by using advertising cookies and
-          anonymous IDs.
+          advertising settings: Remarketing by using Google® Analytics;
+          Google® Display Network Exposure Report; Google® Analytics
+          Demographics and Interests Report; and Integrated service allowing the
+          collection of data through Google® Analytics by using advertising
+          cookies and anonymous IDs.
         </p>
         <p className="font-teko text-black text-lg my-2">
-          More information about Google’s own privacy policy can be found at{" "}
+          More information about Google’s own privacy policy can be found at{' '}
           <a href="https://www.google.com/policies/privacy">
             https://www.google.com/policies/privacy.
           </a>
@@ -214,7 +214,7 @@ export default function PrivacyPolicy() {
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
           If you wish to opt-out from your information or data being used by
           Google Analytics, you may download the Google Analytics Opt-out
-          Browser Add-on available here:{" "}
+          Browser Add-on available here:{' '}
           <a
             href="https://tools.google.com/dlpage/gaoptout"
             className="text-blue-700"
@@ -236,38 +236,38 @@ export default function PrivacyPolicy() {
           – Operating the Game Service,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Providing opportunities to participate on the events or surveys
           relating to the Game Service,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Solving technical problems and improving the quality of the Service,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           – Technical protection against usage of unauthorized programs,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           – Preventing inappropriate gameplay that could harm other players,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           – Tracking usage patterns and analyzing trends of players, calculate
           statistics on service use,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           – Searching player statistics and provision of leaderboard,
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
-          {" "}
+          {' '}
           - Operating E-sports events and providing opportunities to participate
           in tournament(s), and
         </p>
         <p className="font-teko text-[#666] text-lg mt-2 mb-10">
-          {" "}
+          {' '}
           - Providing customer service by collecting and responding to inquires.
         </p>
         <p className="font-teko text-[#666] text-lg my-2">
@@ -347,68 +347,143 @@ export default function PrivacyPolicy() {
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        7. International Data Transfers
+          7. International Data Transfers
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        Your personal information will be stored and processed on our secure servers located in India and Singapore. The access to your personal information is limited to our employees’, agents and contracted third party, who are bound by strict confidentiality agreements and have access only on a business need to know basis. No one can access your personal information without our approval.  However, we may electronically transfer your data, secured through multiple layers of security, communicated using leading encrypted technologies, to contracted third party service providers, who may be in different country or region, to operate the game service and/or to meet any legal requirements. The legal basis for such processing is compliance with a legal obligation to which we are subject to or are legitimate interests, such as exercise or defense of legal claims. In the event of transfer to another country or region, we will take steps to ensure that your information receives the same level of protection as if, if it had remained in India.
+          Your personal information will be stored and processed on our secure
+          servers located in India and Singapore. The access to your personal
+          information is limited to our employees’, agents and contracted third
+          party, who are bound by strict confidentiality agreements and have
+          access only on a business need to know basis. No one can access your
+          personal information without our approval. However, we may
+          electronically transfer your data, secured through multiple layers of
+          security, communicated using leading encrypted technologies, to
+          contracted third party service providers, who may be in different
+          country or region, to operate the game service and/or to meet any
+          legal requirements. The legal basis for such processing is compliance
+          with a legal obligation to which we are subject to or are legitimate
+          interests, such as exercise or defense of legal claims. In the event
+          of transfer to another country or region, we will take steps to ensure
+          that your information receives the same level of protection as if, if
+          it had remained in India.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        8. Retaining and Deleting Personal Information
+          8. Retaining and Deleting Personal Information
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        In principle, we will remove your personal information without delay after the purpose of collecting personal information is achieved. Personal information stored in physical form will be shredded or incinerated, and personal information stored electronically will be removed using technical measures in a way that the information cannot be reproduced. However, we may retain your personal information even after you have closed your account with us or we have ceased providing Services to you, if retention of your personal information is reasonably necessary to comply with our statutory legal obligations, meet regulatory requirements, resolve disputes, prevent fraud, cheating or abuse, or enforce this Privacy Policy or any other agreement we may have with a player.
+          In principle, we will remove your personal information without delay
+          after the purpose of collecting personal information is achieved.
+          Personal information stored in physical form will be shredded or
+          incinerated, and personal information stored electronically will be
+          removed using technical measures in a way that the information cannot
+          be reproduced. However, we may retain your personal information even
+          after you have closed your account with us or we have ceased providing
+          Services to you, if retention of your personal information is
+          reasonably necessary to comply with our statutory legal obligations,
+          meet regulatory requirements, resolve disputes, prevent fraud,
+          cheating or abuse, or enforce this Privacy Policy or any other
+          agreement we may have with a player.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        9. Our Policy Concerning Underage Users
+          9. Our Policy Concerning Underage Users
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        This Game and/or Service are not intended for underage users. Thus, underage users should not use the Game and/or Service unless parental consent is provided. We do not knowingly collect, use or share any personal information for those who are under 18 years of age without the consent and verification of the underage users’ parent or guardian, or unless permitted by law. If you are under the age of 18 years, you will be asked to provide the mobile phone number of your parent or guardian to confirm that you are legally eligible to play the game. If you are a parent or guardian and you believe your child under 18 years of age has provided us with their personal information without your consent, you can contact us and request that your child’s information be deleted from our system.
+          This Game and/or Service are not intended for underage users. Thus,
+          underage users should not use the Game and/or Service unless parental
+          consent is provided. We do not knowingly collect, use or share any
+          personal information for those who are under 18 years of age without
+          the consent and verification of the underage users’ parent or
+          guardian, or unless permitted by law. If you are under the age of 18
+          years, you will be asked to provide the mobile phone number of your
+          parent or guardian to confirm that you are legally eligible to play
+          the game. If you are a parent or guardian and you believe your child
+          under 18 years of age has provided us with their personal information
+          without your consent, you can contact us and request that your child’s
+          information be deleted from our system.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        10. Links and Third Party Services
+          10. Links and Third Party Services
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        If you click on a link to a third party website, including, without limitation, an advertisement, you will leave this Site and go to the site you selected. Because we cannot control the activities of third parties, we do not have responsibility for any use of your personal information by such third parties, and we cannot guarantee that they will adhere to the same privacy and security practices as we do. We encourage you to review the privacy policies of any other service provider from whom you request services. If you visit a third party website that is linked to the Site, you should consult that site’s privacy policy before providing any personal Information.
+          If you click on a link to a third party website, including, without
+          limitation, an advertisement, you will leave this Site and go to the
+          site you selected. Because we cannot control the activities of third
+          parties, we do not have responsibility for any use of your personal
+          information by such third parties, and we cannot guarantee that they
+          will adhere to the same privacy and security practices as we do. We
+          encourage you to review the privacy policies of any other service
+          provider from whom you request services. If you visit a third party
+          website that is linked to the Site, you should consult that site’s
+          privacy policy before providing any personal Information.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        11. Security of Your Information
+          11. Security of Your Information
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        We have put in place appropriate security measures to prevent your personal information from being accidentally leaked, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal information to those employees, agents, etc. who have a business need to know. They will only process your personal information on our instructions and they are subject to a duty of confidentiality. We have put in place safety procedures to deal with any suspected data security breach and will notify you and any applicable regulator of a suspected breach where we are legally required to do so.
+          We have put in place appropriate security measures to prevent your
+          personal information from being accidentally leaked, used or accessed
+          in an unauthorised way, altered or disclosed. In addition, we limit
+          access to your personal information to those employees, agents, etc.
+          who have a business need to know. They will only process your personal
+          information on our instructions and they are subject to a duty of
+          confidentiality. We have put in place safety procedures to deal with
+          any suspected data security breach and will notify you and any
+          applicable regulator of a suspected breach where we are legally
+          required to do so.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        12. Your Privacy Rights
+          12. Your Privacy Rights
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        Subject to limitations in applicable law, you may be entitled to object to or request the restriction of processing of your personal information, and to request access to, rectification, erasure, and portability of your own personal information. Please note that some information may be exempt from such requests based on applicable law and your exercise of such rights may prevent you from continuing to access or use the Game Service. To make a request concerning your rights or if you have any other question, please contact us by sending an email to the address specified in the “Contact Us” section. We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws.
+          Subject to limitations in applicable law, you may be entitled to
+          object to or request the restriction of processing of your personal
+          information, and to request access to, rectification, erasure, and
+          portability of your own personal information. Please note that some
+          information may be exempt from such requests based on applicable law
+          and your exercise of such rights may prevent you from continuing to
+          access or use the Game Service. To make a request concerning your
+          rights or if you have any other question, please contact us by sending
+          an email to the address specified in the “Contact Us” section. We
+          respond to all requests we receive from individuals wishing to
+          exercise their data protection rights in accordance with applicable
+          data protection laws.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        13. Amendments
+          13. Amendments
         </h1>
         <p className="font-teko text-[#666] text-lg mt-2 mb-20">
-        We may amend, at our discretion, any portion of this Privacy Policy at any time by posting or displaying the amended Privacy Policy on our Site. We will provide notice on our Site or by other appropriate means to you if these changes are material and, where required by applicable law. You will be deemed to have accepted such amendments by continuing to use the Service, so please review it frequently. You can see when this policy was last updated by checking the “last updated” date displayed at the top of this policy.
+          We may amend, at our discretion, any portion of this Privacy Policy at
+          any time by posting or displaying the amended Privacy Policy on our
+          Site. We will provide notice on our Site or by other appropriate means
+          to you if these changes are material and, where required by applicable
+          law. You will be deemed to have accepted such amendments by continuing
+          to use the Service, so please review it frequently. You can see when
+          this policy was last updated by checking the “last updated” date
+          displayed at the top of this policy.
         </p>
 
         <h1 className="font-teko text-[#666] text-xl font-bold">
-        14. Contact Us
+          14. Contact Us
         </h1>
         <p className="font-teko text-[#666] text-lg my-2">
-        If you have any questions about this Policy, or your dealings with this Site or App, please contact us by using one of the following communication channels.
+          If you have any questions about this Policy, or your dealings with
+          this Site or App, please contact us by using one of the following
+          communication channels.
         </p>
         <p className="font-teko text-[#666] text-lg my-4">
-        -      Grievance Officer Information
+          - Grievance Officer Information
         </p>
         <p className="font-teko text-[#666] text-lg my-4">
-        -   Name: Sanket Sarkar
+          - Name: Sanket Sarkar
         </p>
         <p className="font-teko text-[#666] text-lg my-4">
-        -   Contact: battlegroundsindia_support@krafton.com
+          - Contact: battlegroundsindia_support@krafton.com
         </p>
       </div>
       <DownloadSection />

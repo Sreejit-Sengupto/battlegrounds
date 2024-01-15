@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 // import ViteAliases from 'vite-aliases';
 
 // https://vitejs.dev/config/
@@ -14,6 +14,6 @@ export default defineConfig({
       '@tac': '/src/components/pages/TermsConditions',
       '@gameResponsibly': '/src/components/pages/Game Responsibly',
       '@redeem': '/src/components/pages/Redeem',
-    }
-  }
-})
+    },
+  },
+});

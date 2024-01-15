@@ -1,7 +1,7 @@
-import React from "react";
-import logo from "/images/pubg-logo.png";
-import appStoreIcon from "/images/btn_appstore_202.png";
-import googlePlayIcon from "/images/btn_googleplay_202.png";
+import React from 'react';
+import logo from '/images/pubg-logo.png';
+import appStoreIcon from '/images/btn_appstore_202.png';
+import googlePlayIcon from '/images/btn_googleplay_202.png';
 
 export default function DownloadSection() {
   return (
@@ -20,7 +20,10 @@ export default function DownloadSection() {
         <a href="https://apps.apple.com/app/id1526436837?mt=8" target="_blank">
           <img src={appStoreIcon} alt="" className="w-[10rem] mr-2 " />
         </a>
-        <a href="https://play.google.com/store/apps/details?id=com.pubg.imobile" target="_blank">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.pubg.imobile"
+          target="_blank"
+        >
           <img src={googlePlayIcon} alt="" className="w-[10rem]" />
         </a>
       </div>

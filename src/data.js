@@ -1,12 +1,12 @@
 export const data = [
-    {
-        id: "1",
-        img: "https://www.battlegroundsmobileindia.com/data/board/2/823/11_Banner_Notice.jpg",
-        type: "Notice",
-        title: "Message for BGMI fans",
-        date: "2023-05-19",
-        for: "homepage",
-        description: `Sean Hyunil Sohn, CEO, KRAFTON, Inc. India, says “We are highly grateful to the Indian authorities for allowing us to resume operations of BATTLEGROUNDS MOBILE INDIA (BGMI). We would like to extend our gratitude to our Indian gaming community for their support and patience over the past few months. We are excited to announce that BATTLEGROUNDS MOBILE INDIA will be available for download soon and we cannot wait to welcome you back to our platform. We believe in the power of gaming to bring people together and create unforgettable experiences. We are committed to delivering exceptional products and services to our users in India and beyond, and we look forward to continuing our journey with you.”
+  {
+    id: '1',
+    img: 'https://www.battlegroundsmobileindia.com/data/board/2/823/11_Banner_Notice.jpg',
+    type: 'Notice',
+    title: 'Message for BGMI fans',
+    date: '2023-05-19',
+    for: 'homepage',
+    description: `Sean Hyunil Sohn, CEO, KRAFTON, Inc. India, says “We are highly grateful to the Indian authorities for allowing us to resume operations of BATTLEGROUNDS MOBILE INDIA (BGMI). We would like to extend our gratitude to our Indian gaming community for their support and patience over the past few months. We are excited to announce that BATTLEGROUNDS MOBILE INDIA will be available for download soon and we cannot wait to welcome you back to our platform. We believe in the power of gaming to bring people together and create unforgettable experiences. We are committed to delivering exceptional products and services to our users in India and beyond, and we look forward to continuing our journey with you.”
 
         He further adds, “At KRAFTON, Inc., we are deeply committed to the Indian gaming ecosystem. Our approach has always been India-first, which serves as the foundation of all our efforts. We believe in investing in the Indian gaming industry and contributing to building a vibrant ecosystem that fosters growth and innovation. To achieve our mission, we aim to augment technology developments in India by collaborating with local developers and promoting the use of cutting-edge technologies. We also recognize the importance of providing skilling and employment opportunities for Indian talent, which can help them nurture their skillset and thrive in the industry.”
         
@@ -29,16 +29,16 @@ export const data = [
         KRAFTON is responsible for premier entertainment properties including BATTLEGROUNDS MOBILE INDIA (BGMI), Road To Valor: Empires, NEW STATE MOBILE, The Callisto Protocol, Moonbreaker, TERA, and ELYON. As a technology-driven company that boasts world-class capabilities, KRAFTON seeks to expand its areas of business beyond games to multimedia entertainment and deep learning.
         
         
-        KRAFTON, Inc. is committed to enhancing the start-up ecosystem in India, with its investment journey in the country beginning in late 2020. So far, the company has invested over $100 million in several Indian startups in the field of interactive entertainment, gaming, Esports and technology such as Nodwin Gaming, Loco, FRND, Pratilipi, One Impression, Nautilus Mobile, Kuku FM, Lila Games.`
-    },
-    {
-        id: "2",
-        img: "https://www.battlegroundsmobileindia.com/data/board/2/810/2_1_update_webbanner02_01.jpg",
-        type: "Patch Notes",
-        title: "2.1 Update Patch Notes",
-        date: "2022-07-14",
-        for: "homepage",
-        description: `Dear BATTLEGROUNDS MOBILE INDIA fans, 
+        KRAFTON, Inc. is committed to enhancing the start-up ecosystem in India, with its investment journey in the country beginning in late 2020. So far, the company has invested over $100 million in several Indian startups in the field of interactive entertainment, gaming, Esports and technology such as Nodwin Gaming, Loco, FRND, Pratilipi, One Impression, Nautilus Mobile, Kuku FM, Lila Games.`,
+  },
+  {
+    id: '2',
+    img: 'https://www.battlegroundsmobileindia.com/data/board/2/810/2_1_update_webbanner02_01.jpg',
+    type: 'Patch Notes',
+    title: '2.1 Update Patch Notes',
+    date: '2022-07-14',
+    for: 'homepage',
+    description: `Dear BATTLEGROUNDS MOBILE INDIA fans, 
 
         The long-awaited July Update is finally here, and we can’t wait to share all the cool stuff we have planned in store for you!  
         
@@ -133,16 +133,16 @@ export const data = [
         
         Do stay tuned and follow us on our official pages for all the latest updates especially when we roll out contest, events and latest updates!  
         
-        Call your friends and jump in! See you on the BATTLEGROUNDS! Winner Winner Chicken Dinner! `
-    },
-    {
-        id: "3",
-        img: "https://www.battlegroundsmobileindia.com/data/board/2/809/2_1_update_webbanner01_01.jpg",
-        type: "Notice",
-        title: "2.1 Update Schedule",
-        date: "2022-07-14",
-        for: "hompage",
-        description: `Dear BATTLEGROUNDS MOBILE INDIA fans,
+        Call your friends and jump in! See you on the BATTLEGROUNDS! Winner Winner Chicken Dinner! `,
+  },
+  {
+    id: '3',
+    img: 'https://www.battlegroundsmobileindia.com/data/board/2/809/2_1_update_webbanner01_01.jpg',
+    type: 'Notice',
+    title: '2.1 Update Schedule',
+    date: '2022-07-14',
+    for: 'hompage',
+    description: `Dear BATTLEGROUNDS MOBILE INDIA fans,
 
  
 
@@ -210,15 +210,15 @@ export const data = [
         
         Regards,
         
-        KRAFTON`
-    },
-    {
-        id: "4",
-        img: "https://www.battlegroundsmobileindia.com/data/board/2/806/15_Banner_Notice.jpg",
-        type: "Notice",
-        title: "Privacy Policy Revisions",
-        date: "2022-07-11",
-        description: `
+        KRAFTON`,
+  },
+  {
+    id: '4',
+    img: 'https://www.battlegroundsmobileindia.com/data/board/2/806/15_Banner_Notice.jpg',
+    type: 'Notice',
+    title: 'Privacy Policy Revisions',
+    date: '2022-07-11',
+    description: `
         Notice
         Privacy Policy Revisions
         2022-07-11
@@ -247,15 +247,15 @@ export const data = [
         
         
         Thank you,
-        KRAFTON`
-    },
-    {
-        id: "5",
-        img: "https://www.battlegroundsmobileindia.com/data/board/2/821/220404_knownissue_web_in.jpg",
-        type: "Known Issue",
-        title: "[July Update] Known Issues (updated: 7/18, 14:30)",
-        date: "2022-07-18",
-        description: `Dear BATTLEGROUNDS MOBILE INDIA fans,
+        KRAFTON`,
+  },
+  {
+    id: '5',
+    img: 'https://www.battlegroundsmobileindia.com/data/board/2/821/220404_knownissue_web_in.jpg',
+    type: 'Known Issue',
+    title: '[July Update] Known Issues (updated: 7/18, 14:30)',
+    date: '2022-07-18',
+    description: `Dear BATTLEGROUNDS MOBILE INDIA fans,
 
 
 
@@ -303,15 +303,15 @@ export const data = [
         
         Thank you,
         
-        KRAFTON`
-    },
-    {
-        id: "6",
-        img: "https://www.battlegroundsmobileindia.com/data/board/2/822/10_Banner_Notice.jpg",
-        type: "Notice",
-        title: "Server Optimization Maintenance Notice",
-        date: "2022-07-22",
-        description: `Dear BATTLEGROUNDS MOBILE INDIA fans,
+        KRAFTON`,
+  },
+  {
+    id: '6',
+    img: 'https://www.battlegroundsmobileindia.com/data/board/2/822/10_Banner_Notice.jpg',
+    type: 'Notice',
+    title: 'Server Optimization Maintenance Notice',
+    date: '2022-07-22',
+    description: `Dear BATTLEGROUNDS MOBILE INDIA fans,
 
 
 
@@ -337,6 +337,6 @@ export const data = [
         
         Regards,
         
-        KRAFTON`
-    }
-]
+        KRAFTON`,
+  },
+];

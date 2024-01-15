@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: Headliner;
-    src: url('./assets/Font/HeadlinerNo.45\ DEMO.ttf');
+  font-family: Headliner;
+  src: url('./assets/Font/HeadlinerNo.45\ DEMO.ttf');
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 .section2--title {
-    font-family: "Headliner", sans-serif;
+  font-family: 'Headliner', sans-serif;
 }
 
 .divider {
-    display: block;
-    width: 1px;
-    height: 20px;
-    background-color: gainsboro;
+  display: block;
+  width: 1px;
+  height: 20px;
+  background-color: gainsboro;
 }

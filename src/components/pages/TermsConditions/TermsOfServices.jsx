@@ -1,5 +1,5 @@
-import React from "react";
-import DownloadSection from '@homepage/DownloadSection'
+import React from 'react';
+import DownloadSection from '@homepage/DownloadSection';
 
 export default function TermsOfServices() {
   return (

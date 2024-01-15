@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { data } from '@/data'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { data } from '@/data';
 
 export default function NewsCards() {
   const cards = data.map((item) => {
@@ -13,5 +13,9 @@ export default function NewsCards() {
       </Link>
     );
   });
-  return <div className="flex flex-col lg:flex-row w-[80%] mx-auto flex-wrap justify-center items-center">{cards}</div>;
+  return (
+    <div className="flex flex-col lg:flex-row w-[80%] mx-auto flex-wrap justify-center items-center">
+      {cards}
+    </div>
+  );
 }

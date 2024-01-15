@@ -1,6 +1,6 @@
-import React from "react";
-import bgText from "/images/game-responsibly-text.png";
-import gameResImg from "/images/game_responsibly_nav_3.jpg"
+import React from 'react';
+import bgText from '/images/game-responsibly-text.png';
+import gameResImg from '/images/game_responsibly_nav_3.jpg';
 
 export default function GameResponsibly() {
   return (
@@ -207,21 +207,23 @@ export default function GameResponsibly() {
       </div>
 
       <div id="battle--together" className="w-[80%] mx-auto mt-20">
-      <h1 className="font-oswald text-4xl tracking-tighter font-semibold text-[#333] mb-10">
-      INDIA, LET'S BATTLE THIS TOGETHER!
+        <h1 className="font-oswald text-4xl tracking-tighter font-semibold text-[#333] mb-10">
+          INDIA, LET'S BATTLE THIS TOGETHER!
         </h1>
         <p className="font-teko text-[#666] text-lg">
-        As a country in awe of gaming, we at Krafton salute your passion.
+          As a country in awe of gaming, we at Krafton salute your passion.
         </p>
         <p className="font-teko text-[#666] text-lg mb-10">
-        However, we want you to show the same passion for responsible gaming as well.
+          However, we want you to show the same passion for responsible gaming
+          as well.
         </p>
         <img src={gameResImg} alt="" className="mb-10" />
         <p className="font-teko text-[#666] text-lg">
-        Always remember, Battlegrounds Mobile India is meant for your entertainment.
+          Always remember, Battlegrounds Mobile India is meant for your
+          entertainment.
         </p>
         <p className="font-teko text-[#666] text-lg mb-32">
-        So keep it light and have fun!
+          So keep it light and have fun!
         </p>
       </div>
     </>
